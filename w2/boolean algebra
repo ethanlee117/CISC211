@@ -1,1 +1,25 @@
 
+
+Simplify Boolean Expression
+
+1.
+
+F = A'B'C' + A'B'C + A'BC + AB'C + ABC'
+
+F = (A'B'C' + A'B'C) + A'BC + AB'C + ABC'
+
+F = A'B'(C'+C) + A'BC + AB'C + ABC'
+
+F = A'B'(1) + A'BC + AB'C + ABC'
+
+F = (A'+B') + A'BC + AB'C + ABC'
+
+
+
+2.
+
+I = MT' + M'T + MT
+
+I = M(T'T) + M'T
+
+I = M + M'T
